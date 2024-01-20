@@ -74,6 +74,7 @@ const check = ()=>{
            
         }
     }
+
     
 };
 
@@ -120,6 +121,7 @@ const stopConfitte = (interval) => {
 
 // when palyer win its pop the message for conguratulations
 const pop=(winner)=>{
+    
     msg.innerText=`Conguratulations , Winner is ${winner}`;
     winMsg.classList.add("hide");
     disabledBoxes();
